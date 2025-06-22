@@ -1,5 +1,7 @@
 # app.py
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
+
 
 from auth_db import create_users_table, add_user, verify_user
 from chat_db import (
@@ -58,6 +60,9 @@ def logout():
 
 # ----------- Chat Room ----------
 def chat_room():
+    # Refresh every 5000 milliseconds (5 seconds)
+    st_autorefresh(interval=5000, key="chat_refresh")
+
     st.title("🫧 Amoeba Chats")
 
     st.sidebar.write(f"👤 `{st.session_state.username}`")
