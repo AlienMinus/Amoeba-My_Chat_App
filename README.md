@@ -116,7 +116,7 @@ streamlit-autorefresh>=0.0.3
 Developed by Minus
 - 🎓 B.Tech (ECE) @ ABIT, Cuttack
 - 🔬 NIUS Research Intern | Python + Streamlit Enthusiast
-- 📬 Contact: minus.dev@example.com
+- 📬 Contact: dasmanasranjan2005@gmail.com
 
 ## 📄 License
 MIT License – use freely, modify responsibly.
